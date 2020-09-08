@@ -1,0 +1,5 @@
+.CardList {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40vh, 1fr));
+}

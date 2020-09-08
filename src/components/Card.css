@@ -1,0 +1,62 @@
+#Card {
+    display:inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+img {
+    align-self: center;
+}
+
+.name {
+    font-size: 1em;
+    align-self: center;
+}
+
+@media (min-width:400px) and (min-height:400px)  {
+    .name {
+        font-size: 1.2em;
+    }
+}
+
+
+.type {
+    color: white;
+    background-color:black;
+    text-transform: capitalize;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 2px;
+}
+
+.bug {
+    background-color: #A8B820;
+}
+
+.electric {
+    background-color: #e9e936;
+}
+
+.fire {
+    background-color: #e03f33;
+}
+
+.flying {
+    background-color: #cde9ff;
+}
+
+.grass {
+    background-color: #7DB808;
+}
+
+.normal {
+    background-color: #9e9797;
+}
+
+.poison {
+    background-color: #832383;
+}
+
+.water {
+    background-color: #0c8af1;
+}
